@@ -13,7 +13,7 @@ test('Exam render test', () => {
 
     // "/exam/:id"
 
-    const user: UserInfo = {name: "Joy", gender: "Male", lang: "Java"};
+    const user: UserInfo = {name: "Borshon", gender: "Male", lang: "Java"};
 
     history.push("/exam", user);
 
