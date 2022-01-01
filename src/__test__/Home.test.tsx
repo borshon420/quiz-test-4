@@ -1,8 +1,9 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Home from '../Home';
+import Home from '../pages/Home';
 
-test('Home render test', () => {
+
+test('Home render', () => {
 
     render(<Home/>);
     const home = screen.getByTestId("home");

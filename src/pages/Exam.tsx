@@ -81,7 +81,7 @@ const Exam: React.FC = () => {
         history.push("/result",{ansCount: count, count: questionList.length});
     }
     return (
-        <div>
+        <div data-testid="exam">
             <div>
                 <h2>Language: {user.lang}</h2>
                 {getQuestionByLang(user.lang).map((question, index)=> <span
