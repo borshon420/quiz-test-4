@@ -17,8 +17,8 @@ const Result: React.FC = () => {
     return (
         <div>
             <h2>Result Page</h2>
-            <h3 style={{color: "red", margin: "0"}}>Correct answer: {result.ansCount}</h3>
-            <h3 style={{color: "green", margin: "0"}}>Incorrect answer: {result.count - result.ansCount}</h3>
+            <h3 style={{color: "green", margin: "0"}}>Correct answer: {result.ansCount}</h3>
+            <h3 style={{color: "red", margin: "0"}}>Incorrect answer: {result.count - result.ansCount}</h3>
             <div
                 style={{
                     width: "400px", 

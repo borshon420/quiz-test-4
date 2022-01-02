@@ -67,11 +67,11 @@ const Home: React.FC = () => {
                 onChange={handleInputChange}
                 sx={{width: "25%", mb: 3, textAlign: "left"}}
               >
-                  <MenuItem key="Java" value="Java">
-                      Java
+                  <MenuItem key="ReactJS" value="ReactJS">
+                  ReactJS
                   </MenuItem>
-                  <MenuItem key="NodeJS" value="NodeJS">
-                      NodeJS
+                  <MenuItem key="TypeScript" value="TypeScript">
+                  TypeScript
                   </MenuItem>
 
               </TextField>
